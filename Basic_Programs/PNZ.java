@@ -8,3 +8,12 @@ public class PNZ {
         System.out.print(result);
     }
 }
+
+//Time Complexity O(1)
+//Reading input: nextInt() → O(1)
+//Ternary condition checks → O(1)
+
+//Space Complexity O(1)
+//One Scanner object
+//One int variable (num)
+//One String variable (result)

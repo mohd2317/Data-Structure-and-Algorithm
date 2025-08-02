@@ -11,3 +11,11 @@ public class AreaOfTriangle {
         System.out.printf("Area of Triangle is: %f",AOT);
     }
 }
+
+//Time Complexity:O(1)
+//No loops or recursion
+//Just a few arithmetic operations and a print statement
+
+//Space Complexity:O(1)
+//Two float variables (B, L)
+//One double variable (AOT)

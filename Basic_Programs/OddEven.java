@@ -16,3 +16,12 @@ public class OddEven {
         // AND & if both bits are 1&1 = 1
     }
 }
+
+//Time Complexity: O(1)
+//Reading input: nextInt() → O(1)
+//Bitwise operation → O(1)
+
+//Space Complexity: O(1)
+//One Scanner object
+//One int variable (num)
+//One String variable (result)
