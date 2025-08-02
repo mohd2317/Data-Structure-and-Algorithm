@@ -28,12 +28,17 @@ I am committed to solving **1–5 programs every day** to strengthen my problem-
 
 ## 📊 Daily Progress Table
 
-| Day        | Date       | Topics Covered    | Programs Added                              |
-|------------|-----------|-------------------|--------------------------------------------|
-| Day 1      | 01-08-2025 | Basic Programs       | Swapping, AreaOfTriangle, Simple/Compound Interest, Pos/Neg NumberChecker, TemperatureChecker, OddEven, MultiplicationTable. |
-| Day 2      | 02-08-2025 | Arrays, Stack, Queue | StackImplementation, QueueUsingStack       |
-| Day 3      | 03-08-2025 | Linked List          | SingleLinkedList, DoubleLinkedList         |
-| Day 4      | 04-08-2025 | Recursion            | Factorial, Fibonacci                       |
+| Day        | Date       | Topics Covered  | Programs Added                              |
+|------------|------------|-----------------|---------------------------------------------|
+| Day 1      | 01-08-2025 | Basic Programs  | Swapping, AreaOfTriangle, Simple/Compound Interest, Pos/Neg NumberChecker, TemperatureChecker, OddEven, MultiplicationTable. |
+| Day 2      | 02-08-2025 | Basic Programs  | OddSum, Factorial, SumOfDigits, LCM, GCD, PrimeNum, ReverseDigits, Fibonacci, ArmstrongNum, PalindromeNum. |
+| Day 3      | 03-08-2025 | Arrays          | SingleLinkedList, DoubleLinkedList         |
+| Day 4      | 04-08-2025 | Stack           | Factorial, Fibonacci                       |
+| Day 5      | 04-08-2025 | Queue           | Factorial, Fibonacci                       |
+| Day 4      | 04-08-2025 | Linked List     | Factorial, Fibonacci                       |
+| Day 4      | 04-08-2025 | Stack           | Factorial, Fibonacci                       |
+| Day 4      | 04-08-2025 | Stack           | Factorial, Fibonacci                       |
+
 
 > ✅ *This table will be updated daily.*
 
@@ -54,8 +59,18 @@ gantt
     Odd Even                 :done, 01-08-2025, 1d
     Leap Year                :done, 01-08-2025, 1d
     Multiplication Table     :done, 01-08-2025, 1d
+    OddSum                   :done, 02-08-2025, 2d
+    Factorial                :done, 02-08-2025, 2d
+    SumOfDigits              :done, 02-08-2025, 2d
+    LCM                      :done, 02-08-2025, 2d
+    GCD                      :done, 02-08-2025, 2d
+    PrimeNum                 :done, 02-08-2025, 2d
+    ReverseDigits            :done, 02-08-2025, 2d
+    Fibonacci                :done, 02-08-2025, 2d
+    ArmstrongNum             :done, 02-08-2025, 2d
+    PalindromeNum            :done, 02-08-2025, 2d
 
-    section Stack
+    section Arrays
     Stack Implementation  :done, 02-08-2025, 1d
 
     section Queue
