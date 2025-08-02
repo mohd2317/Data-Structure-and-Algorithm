@@ -23,27 +23,6 @@ I am committed to solving **1–5 programs every day** to strengthen my problem-
 
 ---
 
-
----
-
-## 📊 Daily Progress Table
-
-| Day        | Date       | Topics Covered  | Programs Added                              |
-|------------|------------|-----------------|---------------------------------------------|
-| Day 1      | 01-08-2025 | Basic Programs  | Swapping, AreaOfTriangle, Simple/Compound Interest, Pos/Neg NumberChecker, TemperatureChecker, OddEven, MultiplicationTable. |
-| Day 2      | 02-08-2025 | Basic Programs  | OddSum, Factorial, SumOfDigits, LCM, GCD, PrimeNum, ReverseDigits, Fibonacci, ArmstrongNum, PalindromeNum. |
-| Day 3      | 03-08-2025 | Arrays          | SingleLinkedList, DoubleLinkedList         |
-| Day 4      | 04-08-2025 | Stack           | Factorial, Fibonacci                       |
-| Day 5      | 04-08-2025 | Queue           | Factorial, Fibonacci                       |
-| Day 4      | 04-08-2025 | Linked List     | Factorial, Fibonacci                       |
-| Day 4      | 04-08-2025 | Stack           | Factorial, Fibonacci                       |
-| Day 4      | 04-08-2025 | Stack           | Factorial, Fibonacci                       |
-
-
-> ✅ *This table will be updated daily.*
-
----
-
 ## 📈 Visual Progress (Mermaid Diagram)
 ```mermaid
 gantt
