@@ -1,3 +1,5 @@
+package Basic_Programs;
+
 import java.util.Scanner;
 public class PNZ {
     public static void main(String[] args) {

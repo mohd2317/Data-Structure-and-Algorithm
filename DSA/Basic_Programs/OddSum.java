@@ -1,3 +1,5 @@
+package Basic_Programs;
+
 import java.util.Scanner;
 
 public class OddSum {
@@ -30,10 +32,10 @@ public class OddSum {
         return sum;
     }
 }
-//Method 1: OddSum(int num)
+//Method 1:OddSum(int num)
 //Time Complexity: O(n)
 //The loop runs from i = 0 to i <= num, incrementing by 1.
-//For each iteration, it checks if i is odd and adds it to sum if true.
+//For each iteration, it checks if i, is odd and adds it to sum if true.
 //
 //Space Complexity: O(1)
 //Uses a constant amount of space: sum, i, and num.

@@ -1,3 +1,5 @@
+package Basic_Programs;
+
 import java.util.Scanner;
 public class Fibonacci{
     public static void main(String[] args){
@@ -27,10 +29,10 @@ public class Fibonacci{
 
 
 //Time Complexity:O(log num)
-//Let’s say the Fibonacci sequence has k terms up to num.
+//Let’s say the Basic_Programs.Fibonacci sequence has k terms up to num.
 //Each iteration computes one term → O(1)
-//Total iterations ≈ number of Fibonacci terms ≤ num
-//Fibonacci numbers grow exponentially, so the number of terms is roughly:𝑘≈log⁡𝜙(𝑛𝑢𝑚)where 𝜙≈1.618
+//Total iterations ≈ number of Basic_Programs.Fibonacci terms ≤ num
+//Basic_Programs.Fibonacci numbers grow exponentially, so the number of terms is roughly:𝑘≈log⁡𝜙(𝑛𝑢𝑚)where 𝜙≈1.618
 
 //Space Complexity:O(1)
 //Uses a few primitive variables: first, second, third

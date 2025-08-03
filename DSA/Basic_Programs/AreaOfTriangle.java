@@ -1,3 +1,5 @@
+package Basic_Programs;
+
 public class AreaOfTriangle {
     public static void main(String[] args) {
         float B = 10;
