@@ -50,8 +50,9 @@ gantt
     ArmstrongNum             :done, 02-08-2025, 2d
     PalindromeNum            :done, 02-08-2025, 2d
 
-    section Stack
-    Stack Implementation  :done, 02-08-2025, 1d
+    section Arrays
+    Array Traversal          :done, 03-08-2025, 3d
+    SearchingArrElmt         :done, 04-08-2025, 4d
 
     section Queue
     Queue Using Stack     :done, 02-08-2025, 1d
