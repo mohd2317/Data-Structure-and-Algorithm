@@ -53,6 +53,7 @@ gantt
     section Arrays
     Array Traversal          :done, 03-08-2025, 3d
     SearchingArrElmt         :done, 04-08-2025, 4d
+    ArrEqualityCheck         :done, 05-08-2025, 5d
 
     section Queue
     Queue Using Stack     :done, 02-08-2025, 1d
