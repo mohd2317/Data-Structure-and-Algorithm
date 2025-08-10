@@ -54,6 +54,15 @@ gantt
     Array Traversal          :done, 03-08-2025, 3d
     SearchingArrElmt         :done, 04-08-2025, 4d
     ArrEqualityCheck         :done, 05-08-2025, 5d
+    ArrayUtility             :done, 10-08-2025, 6d
+    Sum & Avg                :done, 10-08-2025, 6d
+    Deletion From Array      :done, 10-08-2025, 6d
+    Max & Min                :done, 10-08-2025, 6d
+    Occurrences              :done, 10-08-2025, 6d
+    Palindrome               :done, 10-08-2025, 6d
+    Reverse Array            :done, 10-08-2025, 6d
+    Searching Elmt           :done, 10-08-2025, 6d
+    Sorting Array            :done, 10-08-2025, 6d
 
     section Queue
     Queue Using Stack     :done, 02-08-2025, 1d
