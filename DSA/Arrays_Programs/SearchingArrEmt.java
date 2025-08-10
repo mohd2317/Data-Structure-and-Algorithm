@@ -18,6 +18,7 @@ public class SearchingArrEmt{
         }
     }
     public static boolean isFound(int[] numArr, int num){
+//        return Arrays.stream(numArr).anyMatch(e -> e == num);
         for (int elements:numArr){
             if (elements==num){
                 return true;
