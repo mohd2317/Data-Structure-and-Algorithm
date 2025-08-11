@@ -7,9 +7,8 @@ public class ArrEqualityCheck {
         int[] a = {10, 20, 30};
         int[] b = {10, 20, 30};
 
-        // Java 7 style
-        boolean equalJava7 = Arrays.equals(a, b);
-        System.out.println("(Java 7) Arrays Equal? " + equalJava7);
+        boolean equal = Arrays.equals(a, b);
+        System.out.println("(Java 7) Arrays Equal? " + equal);
     }
 }
 
