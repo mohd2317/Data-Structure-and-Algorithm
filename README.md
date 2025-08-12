@@ -64,8 +64,21 @@ gantt
     Searching Elmt           :done, 10-08-2025, 6d
     Sorting Array            :done, 10-08-2025, 6d
 
-    section Queue
-    Queue Using Stack     :done, 02-08-2025, 1d
+    section String
+    Basic Program            :done, 11-08-2025, 7d
+    AlphabetsOnly            :done, 11-08-2025, 7d
+    CharOccurrences          :done, 11-08-2025, 7d
+    LowertoUpper             :done, 11-08-2025, 7d
+    MostFrequentChar         :done, 11-08-2025, 7d
+    PalindromeChecker        :done, 11-08-2025, 7d
+    RemoveConsecutiveChar    :done, 11-08-2025, 7d
+    RemoveDuplicates         :done, 11-08-2025, 7d
+    RemoveVowels             :done, 11-08-2025, 7d
+    RemoveWhiteSpaces        :done, 11-08-2025, 7d
+    ReplaceChar              :done, 11-08-2025, 7d
+    ReverseStr               :done, 11-08-2025, 7d
+    StringLength             :done, 11-08-2025, 7d
+    VowelsCount              :done, 11-08-2025, 7d
 
     section Linked List
     Single Linked List    :done, 03-08-2025, 1d
