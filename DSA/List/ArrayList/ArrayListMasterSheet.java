@@ -1,4 +1,4 @@
-package List_ArrayList;
+package List.ArrayList;
 
 import java.util.*;
 import java.util.stream.Collectors;
