@@ -63,6 +63,9 @@ public class Basic_Program {
         clonedList.clear();
         System.out.println("After clearing cloned list: " + clonedList); //[]
 
+        //ByDefault AL is non-synchronized But we can get Syn version of AL obj by using synchronizedList() of Collections class.
+        List synList = Collections.synchronizedList(l);
+
         System.out.println("\n===== Iterations =====");
 
         // 1. Using traditional for loop
