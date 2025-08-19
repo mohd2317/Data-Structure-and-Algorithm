@@ -1,4 +1,4 @@
-package List.ArrayList;
+package collections.List.ArrayList;
 
 import java.util.*;
 
@@ -12,7 +12,7 @@ public class BasicWithGenerics {
         list.add("A");
         list.add("B");
         list.add("C");
-        System.out.println("Initial List: " + list); //[A, B, C]
+        System.out.println("Initial collections.List: " + list); //[A, B, C]
 
         // Add at specific index
         list.add(1, "Inserted");
@@ -31,7 +31,7 @@ public class BasicWithGenerics {
         System.out.println("After removing 'A': " + list); //[Inserted, Replaced]
 
         // Check if contains element
-        System.out.println("List contains 'B'? " + list.contains("B")); //false
+        System.out.println("collections.List contains 'B'? " + list.contains("B")); //false
 
         // Get element at index
         System.out.println("Element at index 0: " + list.get(0)); //Inserted
@@ -40,7 +40,7 @@ public class BasicWithGenerics {
         System.out.println("Index of 'Replaced': " + list.indexOf("Replaced")); //1
 
         // Size
-        System.out.println("List size: " + list.size()); //2
+        System.out.println("collections.List size: " + list.size()); //2
 
         // Is empty?
         System.out.println("Is list empty? " + list.isEmpty()); //false

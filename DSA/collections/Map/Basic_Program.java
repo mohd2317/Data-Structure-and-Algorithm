@@ -1,11 +1,11 @@
-package Map;
+package collections.Map;
 
 import java.util.*;
 import java.util.stream.Collectors;
 
 public class Basic_Program {
     public static void main(String[] args) {
-        // ====== Create Map ======
+        // ====== Create collections.List.Map ======
         Map<Integer, String> map = new HashMap<>();
 
         // put, putIfAbsent
@@ -13,7 +13,7 @@ public class Basic_Program {
         map.put(2, "Banana");
         map.put(3, "Cherry");
         map.putIfAbsent(2, "Blueberry"); // won't overwrite Banana
-        System.out.println("Initial Map: " + map); //{1=Apple, 2=Banana, 3=Cherry}
+        System.out.println("Initial collections.List.Map: " + map); //{1=Apple, 2=Banana, 3=Cherry}
 
         // get, getOrDefault
         System.out.println("Get key 2: " + map.get(2)); //Banana
@@ -68,9 +68,9 @@ public class Basic_Program {
 
         // collect to list
         List<String> valuesList = map.values().stream().collect(Collectors.toList());
-        System.out.println("Values List: " + valuesList); //[Pineapple, Blackberry]
+        System.out.println("Values collections.List: " + valuesList); //[Pineapple, Blackberry]
 
-        // ===== TreeMap (Sorted Map) =====
+        // ===== TreeMap (Sorted collections.List.Map) =====
         TreeMap<Integer, String> treeMap = new TreeMap<>(map);
         treeMap.put(5, "Orange");
         treeMap.put(4, "Kiwi");
@@ -84,7 +84,7 @@ public class Basic_Program {
 }
 
 /*
-Map<K,V> is a key-value pair collection.
+collections.List.Map<K,V> is a key-value pair collection.
 Keys are unique, values can be duplicate.
 Common Implementations:
 HashMap → unordered, fastest.
@@ -99,8 +99,8 @@ You need sorted maps → TreeMap.
 You need insertion-order iteration → LinkedHashMap.
 
 Why Not Use
-If order matters strictly (use List instead).
-If you need multiple values per key → use Map<K, List<V>>.
+If order matters strictly (use collections.List instead).
+If you need multiple values per key → use collections.List.Map<K, collections.List<V>>.
 If you need concurrent access → use ConcurrentHashMap instead of HashMap.
 
 Developer Must-Know

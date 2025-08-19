@@ -1,5 +1,5 @@
-//WAP that sorts a List of String Obj in descending Order using a Custom Comparator.
-package List.ArrayList;
+//WAP that sorts a collections.List of String Obj in descending Order using a Custom Comparator.
+package collections.List.ArrayList;
 
 import java.util.Arrays;
 import java.util.Collections;

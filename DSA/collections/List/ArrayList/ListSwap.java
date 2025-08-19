@@ -1,5 +1,5 @@
 //Write a method that swap two elements in an AL given their indices.
-package List.ArrayList;
+package collections.List.ArrayList;
 
 import java.util.Arrays;
 import java.util.List;

@@ -80,9 +80,9 @@ gantt
     StringLength             :done, 11-08-2025, 7d
     VowelsCount              :done, 11-08-2025, 7d
 
-    section Linked List
-    Single Linked List    :done, 03-08-2025, 1d
-    Double Linked List    :done, 03-08-2025, 1d
+    section Linked collections.List
+    Single Linked collections.List    :done, 03-08-2025, 1d
+    Double Linked collections.List    :done, 03-08-2025, 1d
 
     section Recursion
     Factorial             :done, 04-08-2025, 1d

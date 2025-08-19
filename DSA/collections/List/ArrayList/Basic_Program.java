@@ -1,4 +1,4 @@
-package List.ArrayList;
+package collections.List.ArrayList;
 
 import java.util.*;
 
@@ -13,7 +13,7 @@ public class Basic_Program {
         l.add("C");
         l.add(17);     // Integer
         l.add(null);   // null value allowed
-        System.out.println("Initial List: " + l); //Initial List: [A, B, C, 17, null]
+        System.out.println("Initial collections.List: " + l); //Initial collections.List: [A, B, C, 17, null]
 
         // Add at specific index
         l.add(2, "Inserted");
@@ -33,7 +33,7 @@ public class Basic_Program {
         System.out.println("After removing object 'B': " + l); //[A, Inserted, Replaced, null]
 
         // Check if contains element
-        System.out.println("List contains 'A' ? " + l.contains("A")); //true
+        System.out.println("collections.List contains 'A' ? " + l.contains("A")); //true
 
         // Get element at index
         System.out.println("Element at index 1: " + l.get(1)); //Inserted
@@ -45,7 +45,7 @@ public class Basic_Program {
         System.out.println("Is list empty? " + l.isEmpty());  //false
 
         // Get size
-        System.out.println("List size: " + l.size());  //4
+        System.out.println("collections.List size: " + l.size());  //4
 
         // Clone list
         ArrayList clonedList = (ArrayList) ((ArrayList) l).clone();

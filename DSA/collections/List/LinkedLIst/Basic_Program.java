@@ -1,4 +1,4 @@
-package List.LinkedLIst;
+package collections.List.LinkedLIst;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -47,7 +47,7 @@ public class Basic_Program {
         System.out.println("pollLast(): " + list.pollLast());    // End
         System.out.println("After poll methods: " + list);       //[B, C, D]
 
-        // Set element
+        // collections.List.Set element
         list.set(0, "Z");
         System.out.println("After set(0, 'Z'): " + list); //[Z, C, D]
 
@@ -127,7 +127,7 @@ public class Basic_Program {
         list.stream().map(String::toUpperCase).forEach(e -> System.out.print(e + " "));
         System.out.println();
 
-        System.out.print("Collect to List: ");
+        System.out.print("Collect to collections.List: ");
         List<String> upperList = list.stream().map(String::toUpperCase).collect(Collectors.toList());
         System.out.println(upperList);
     }

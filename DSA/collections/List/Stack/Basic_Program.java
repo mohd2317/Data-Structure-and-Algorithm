@@ -1,4 +1,4 @@
-package List.Stack;
+package collections.List.Stack;
 
 import java.util.Stack;
 
@@ -45,7 +45,7 @@ Q: Difference between Stack and ArrayDeque?
 A: Stack is synchronized (slower), ArrayDeque is faster but not thread-safe.
 
 Q: Is Stack part of Java Collections Framework?
-A: Yes, it implements List through Vector.
+A: Yes, it implements collections.List through Vector.
 
 Q: Why Stack extends Vector?
 A: Historical design — Stack was added in Java 1.0 before the Collections framework.

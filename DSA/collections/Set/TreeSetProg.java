@@ -1,4 +1,4 @@
-package Set;
+package collections.Set;
 
 import java.util.*;
 
@@ -80,7 +80,7 @@ Sorted order without manual sorting.
 Fast search in O(log n) time.
 Example: Sorted leaderboards, range queries, auto-suggestions.
 Use NavigableSet methods for advanced operations.
-Choose TreeSet only when sorted order is required all the time — otherwise, sort a List when needed.
+Choose TreeSet only when sorted order is required all the time — otherwise, sort a collections.List when needed.
 
 
 2. Why Use TreeSet?

@@ -1,10 +1,10 @@
-package Queue;
+package collections.List.Queue;
 
 import java.util.*;
 
 public class Basic_Program {
     public static void main(String[] args) {
-        // ===== Default Queue using LinkedList =====
+        // ===== Default collections.List.Queue using LinkedList =====
         Queue<String> queue = new LinkedList<>();
 
         // add / offer
@@ -12,7 +12,7 @@ public class Basic_Program {
         queue.offer("Banana");
         queue.add("Cherry");
 
-        System.out.println("Queue after add/offer: " + queue); //[Apple, Banana, Cherry]
+        System.out.println("collections.List.Queue after add/offer: " + queue); //[Apple, Banana, Cherry]
 
         // peek / element
         System.out.println("Peek (head): " + queue.peek());       //Apple // null if empty
@@ -21,7 +21,7 @@ public class Basic_Program {
         // remove / poll
         System.out.println("Remove (head): " + queue.remove());  //Apple   // throws exception if empty
         System.out.println("Poll (head): " + queue.poll());     //Banana  // returns null if empty
-        System.out.println("Queue after remove/poll: " + queue);//[Cherry]
+        System.out.println("collections.List.Queue after remove/poll: " + queue);//[Cherry]
 
         // ===== Iteration in Java 7 =====
         System.out.println("\n--- Iteration Java 7 ---");
@@ -58,7 +58,7 @@ public class Basic_Program {
 }
 
 /*
-2. Why Use Queue?
+2. Why Use collections.List.Queue?
 Natural fit when order of processing matters (tasks, jobs, requests).
 Used in:
 Task scheduling (OS, printers, CPUs).
@@ -80,7 +80,7 @@ For sorted elements → use PriorityQueue or TreeSet.
 
 
 Interview / DSA Points
-Queue methods:
+collections.List.Queue methods:
 add(e) / offer(e) → insert
 remove() / poll() → delete
 element() / peek() → access front
@@ -95,5 +95,5 @@ ArrayDeque is faster than LinkedList for queue ops.
 Must-Know
 Use ArrayDeque in modern apps (faster, non-synchronized).
 Avoid PriorityQueue for custom ordering without Comparator` → can cause ClassCastException.
-LinkedList is a universal List + Queue + Deque.
+LinkedList is a universal collections.List + collections.List.Queue + Deque.
  */

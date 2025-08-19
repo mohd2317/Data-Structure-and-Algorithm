@@ -1,4 +1,4 @@
-package List;
+package collections.List.ArrayList;
 
 public class ListBasic {
 
@@ -35,7 +35,7 @@ Stack
 LIFO DSA problem → Stack
 Good for reversal problems, DFS, backtracking.
 Modern stack → ArrayDeque
-Always declare as List for flexibility unless Stack or specific behavior is needed.
+Always declare as collections.List for flexibility unless Stack or specific behavior is needed.
 
 
  */
